@@ -15,7 +15,7 @@ declare const useReadonlyMyAddonStateFromPreview: () => MyAddonState;
  * @param params - 自作アドオン用のパラメータ
  */
 declare const createAssignableParametersForMyAddon: (params: MyAddonState) => {
-    myAddonParameter: MyAddonState;
+    myAddonParameterLegacy: MyAddonState;
 };
 
 export { type MyAddonState, createAssignableParametersForMyAddon, useReadonlyMyAddonStateFromPreview as useMyAddonState };

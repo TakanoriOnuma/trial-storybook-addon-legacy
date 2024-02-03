@@ -1,5 +1,5 @@
-var o="myAddonParameter";var e={globals:{[o]:{}}},s=e;
+var o="myAddonParameterLegacy";var t={globals:{[o]:{}}},p=t;
 
-export { s as default };
+export { p as default };
 //# sourceMappingURL=out.js.map
 //# sourceMappingURL=preview.mjs.map

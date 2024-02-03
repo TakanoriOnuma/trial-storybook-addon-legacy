@@ -7,7 +7,7 @@ import { Panel } from "./Panel";
 addons.register(ADDON_ID, () => {
   addons.add(PANEL_ID, {
     type: types.PANEL,
-    title: "My addon",
+    title: "My addon(legacy)",
     paramKey: PARAM_KEY,
     match: ({ viewMode }) => viewMode === "story",
     render: Panel,
