@@ -28,7 +28,7 @@ export const Panel: Addon_Type["render"] = ({ key, active }) => {
 
   return (
     <AddonPanel key={key} active={active ?? false}>
-      <h2>パラメータ設定</h2>
+      <h2>パラメータ設定（レガシー）</h2>
       <PureArgsTable
         // みているStoryが変わったら作り直す
         key={path}
