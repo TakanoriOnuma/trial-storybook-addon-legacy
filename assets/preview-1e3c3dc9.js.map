@@ -1,0 +1,1 @@
+{"version":3,"file":"preview-1e3c3dc9.js","sources":["../../dist/preview.mjs"],"sourcesContent":["var o=\"myAddonParameter\";var e={globals:{[o]:{}}},s=e;\n\nexport { s as default };\n//# sourceMappingURL=out.js.map\n//# sourceMappingURL=preview.mjs.map"],"names":["o","s"],"mappings":"AAAA,IAAIA,EAAE,mBAAuB,EAAE,CAAC,QAAQ,CAAC,CAACA,CAAC,EAAE,CAAA,CAAE,CAAC,EAAEC,EAAE"}
