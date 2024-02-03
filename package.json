@@ -1,0 +1,49 @@
+{
+  "name": "trial-storybook-addon-legacy",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./manager": "./dist/manager.mjs",
+    "./preview": "./dist/preview.mjs",
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx only-allow npm",
+    "build": "tsup",
+    "build:watch": "npm run build -- --watch",
+    "storybook": "storybook dev -p 7010",
+    "storybook:build": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addons": "7.0.26",
+    "@storybook/blocks": "7.0.26",
+    "@storybook/components": "7.0.26",
+    "@storybook/manager": "^7.6.12",
+    "@storybook/preview": "^7.6.12",
+    "@storybook/react": "7.0.26",
+    "@storybook/react-vite": "7.0.26",
+    "@tsconfig/vite-react": "^3.0.0",
+    "@types/react": "^18.2.52",
+    "@vitejs/plugin-react": "^4.2.1",
+    "prettier": "^3.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "7.0.26",
+    "tsup": "^8.0.1",
+    "vite": "^4.5.2"
+  },
+  "volta": {
+    "node": "18.19.0"
+  }
+}
